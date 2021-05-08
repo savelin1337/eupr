@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/Intro.eot");
+  src: url("../fonts/Intro.eot?#iefix") format("embedded-opentype"), url("../fonts/Intro.woff2") format("woff2"), url("../fonts/Intro.woff") format("woff"), url("../fonts/Intro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-family: "Intro", sans-serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.__pp main {
+  background-image: url("../img/parking-mob-bg.jpg");
+  background-size: cover; }
+  .__pp main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding: 30px 15px; }
+    .__pp main .container .header {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+      .__pp main .container .header img {
+        margin-bottom: 64px; }
+      .__pp main .container .header .text {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center; }
+        .__pp main .container .header .text p {
+          margin-bottom: 24px; }
+    .__pp main .container .lower {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .__pp main .container .lower a:first-child {
+        margin-right: 48px; }
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 50px 15px;
+    max-width: 1070px;
+    margin: 0 auto; }
+
+  .__pp main {
+    background-image: url("../img/parking-bg.jpg"); }
+    .__pp main .container {
+      padding: 50px 0;
+      justify-content: space-evenly; }
+      .__pp main .container .header {
+        flex-direction: row; }
+        .__pp main .container .header img {
+          margin-bottom: 0;
+          margin-right: 32px; }
+        .__pp main .container .header .text {
+          line-height: 1.3;
+          font-size: 18px;
+          text-align: left; }
+          .__pp main .container .header .text p {
+            margin-bottom: 0; }
+            .__pp main .container .header .text p br {
+              display: none; }
+      .__pp main .container .lower a:first-child {
+        margin-right: 64px; } }
+
+/*# sourceMappingURL=style.css.map */
